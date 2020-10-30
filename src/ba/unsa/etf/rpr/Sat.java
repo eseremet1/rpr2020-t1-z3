@@ -1,6 +1,7 @@
 package ba.unsa.etf.rpr;
 
 public class Sat {
+    int sati,minute,sekunde;
     public int getSati() {
         return sati;
     }
@@ -25,7 +26,6 @@ public class Sat {
         this.sekunde = sekunde;
     }
 
-    int sati,minute,sekunde;
     public Sat(int sati, int minute, int sekunde) {
         postavi(sati,minute,sekunde);
     }
